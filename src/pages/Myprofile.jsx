@@ -101,6 +101,7 @@ export default function Myprofile() {
           {
             isEdit
               ? <select className='max-w-20 bg-gray-100' onChange={(e) => setUserData(prev => ({ ...prev, gender: e.target.value }))} value={userData.gender}>
+                <option value="">-select-</option>
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
               </select>
