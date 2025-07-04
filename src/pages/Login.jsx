@@ -81,6 +81,9 @@ export default function Login() {
             ? <p>Already have an account? <span onClick={() => setState('Login')} className="underline cursor-pointer" style={{ color: '#5f6fff' }} >Log in here</span> </p>
             : <p>Create an new account? <span onClick={() => setState('Sign Up')} className="underline cursor-pointer" style={{ color: '#5f6fff' }} >click here</span></p>
         }
+        <div>
+          <p>For ADMIN PANEL <a href="https://prescripto-admin-ec0b.onrender.com" target="admin panel"> <span className="text-[#5f6fff]">Click Here</span></a></p>
+          </div>
       </div>
     </form>
   )
